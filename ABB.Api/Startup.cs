@@ -72,7 +72,7 @@ namespace ABB.Api
         {
             app.UseCors("ApiCorsPolicy");
             app.UseTraceIdentifier();
-            //app.UseNotAcceptableMiddleware();
+            app.UseNotAcceptableMiddleware();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
