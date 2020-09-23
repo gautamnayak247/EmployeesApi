@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ABB.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ABB.Api.Filters.AuthorizationAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            validating user is allowed or not before action is executed.
+            </summary>
+            <param name="context"></param>
+        </member>
+    </members>
+</doc>
